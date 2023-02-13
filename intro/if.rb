@@ -25,3 +25,15 @@ if !hungry
 elsif hungry and !warm
   puts "I am starving and freezing!"
 end
+
+def max(num1, num2, num3)
+  if num1 >= num2 and num >= num3
+    return num1
+  elsif num2 >= num1 and num2 >= num3
+    return num2
+  else
+    return num3
+  end
+end
+
+puts max(1,20,3)
